@@ -1,0 +1,19 @@
+name = input("Enter Student Name: ")
+age = int(input("Enter Age: "))
+degree = input("Enter Degree: ")
+percentage = float(input("Enter Percentage: "))
+print("\n--- Student Details ---")
+print("Name:", name)
+print("Age:", age)
+print("Degree:", degree)
+print("Percentage:", percentage)
+if percentage >= 60:
+    print("Admission Status: Eligible")
+else:
+    print("Admission Status: Not Eligible")
+
+years_to_30 = 30 - age
+percentage_to_100 = 100 - percentage
+print("\n--- Additional Information ---")
+print("Years remaining to reach age 30:", years_to_30)
+print("Percentage required to reach 100:", percentage_to_100)
